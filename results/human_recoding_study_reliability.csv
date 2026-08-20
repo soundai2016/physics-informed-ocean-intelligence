@@ -1,0 +1,3 @@
+dimension,n_studies,n_observations,exact_agreement,exact_agreement_ci95_low,exact_agreement_ci95_high,cohen_kappa,kappa_ci95_low,kappa_ci95_high,mean_set_jaccard,jaccard_ci95_low,jaccard_ci95_high,mean_absolute_difference
+configuration_bearing,142,142,0.978873,0.950704,1.000000,0.956804,0.900815,1.000000,,,,
+configuration_count,142,142,0.922535,0.873239,0.964789,0.867086,0.787626,0.937862,,,,0.077465

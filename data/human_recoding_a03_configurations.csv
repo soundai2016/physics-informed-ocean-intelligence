@@ -1,0 +1,285 @@
+Study ID,title,doi,Slot,O,C,E,A,N,Physics insertion,Claim boundary
+S001,Recurrent World Models Facilitate Policy Evolution,,1,O0,C0,E2,A2,N0,none,B_SIMULATION_TO_FIELD
+S001,Recurrent World Models Facilitate Policy Evolution,,2,,,,,,,
+S002,Mastering diverse control tasks through world models,10.1038/s41586-025-08744-2,1,O0,C0,E2,A2,N2,none,B_SIMULATION_TO_FIELD
+S002,Mastering diverse control tasks through world models,10.1038/s41586-025-08744-2,2,,,,,,,
+S003,A Path Towards Autonomous Machine Intelligence,,1,,,,,,,
+S003,A Path Towards Autonomous Machine Intelligence,,2,,,,,,,
+S004,Reinforcement Learning in Robotics: A Survey,10.1177/0278364913495721,1,,,,,,,
+S004,Reinforcement Learning in Robotics: A Survey,10.1177/0278364913495721,2,,,,,,,
+S005,Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations,10.1016/j.jcp.2018.10.045,1,O0,C1,E1,A0,N0,objective_or_projection,B_SIMULATION_TO_FIELD
+S005,Physics-Informed Neural Networks: A Deep Learning Framework for Solving Forward and Inverse Problems Involving Nonlinear Partial Differential Equations,10.1016/j.jcp.2018.10.045,2,O0,C1,E0,A0,N2,objective_or_projection,B_SIMULATION_TO_FIELD
+S006,Physics-Informed Machine Learning,10.1038/s42254-021-00314-5,1,,,,,,,
+S006,Physics-Informed Machine Learning,10.1038/s42254-021-00314-5,2,,,,,,,
+S007,Machine Learning for Fluid Mechanics,10.1146/annurev-fluid-010719-060214,1,,,,,,,
+S007,Machine Learning for Fluid Mechanics,10.1146/annurev-fluid-010719-060214,2,,,,,,,
+S008,Deep Learning and Process Understanding for Data-Driven Earth System Science,10.1038/s41586-019-0912-1,1,,,,,,,
+S008,Deep Learning and Process Understanding for Data-Driven Earth System Science,10.1038/s41586-019-0912-1,2,,,,,,,
+S009,Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems,10.1145/3514228,1,,,,,,,
+S009,Integrating Scientific Knowledge with Machine Learning for Engineering and Environmental Systems,10.1145/3514228,2,,,,,,,
+S010,"Bridging Observations, Theory and Numerical Simulation of the Ocean Using Machine Learning",10.1088/1748-9326/ac0eb0,1,,,,,,,
+S010,"Bridging Observations, Theory and Numerical Simulation of the Ocean Using Machine Learning",10.1088/1748-9326/ac0eb0,2,,,,,,,
+S011,Applications of Deep Learning to Ocean Data Inference and Subgrid Parameterization,10.1029/2018MS001472,1,O0,C0,E0,A0,N0,none,B_SIMULATION_TO_FIELD
+S011,Applications of Deep Learning to Ocean Data Inference and Subgrid Parameterization,10.1029/2018MS001472,2,O0,C0,E0,A0,N0,none,B_SIMULATION_TO_FIELD
+S012,Learning Variational Data Assimilation Models and Solvers,10.1029/2021MS002572,1,O2,C1,E0,A0,N2,inference,B_SIMULATION_TO_FIELD
+S012,Learning Variational Data Assimilation Models and Solvers,10.1029/2021MS002572,2,,,,,,,
+S013,Ocean Reanalyses: Recent Advances and Unsolved Challenges,10.3389/fmars.2019.00418,1,,,,,,,
+S013,Ocean Reanalyses: Recent Advances and Unsolved Challenges,10.3389/fmars.2019.00418,2,,,,,,,
+S014,The Argo Program: Observing the Global Ocean with Profiling Floats,10.5670/oceanog.2009.36,1,,,,,,,
+S014,The Argo Program: Observing the Global Ocean with Profiling Floats,10.5670/oceanog.2009.36,2,,,,,,,
+S015,"On the Future of Argo: A Global, Full-Depth, Multi-Disciplinary Array",10.3389/fmars.2019.00439,1,,,,,,,
+S015,"On the Future of Argo: A Global, Full-Depth, Multi-Disciplinary Array",10.3389/fmars.2019.00439,2,,,,,,,
+S016,What We Have Learned From the Framework for Ocean Observing: Evolution of the Global Ocean Observing System,10.3389/fmars.2019.00471,1,,,,,,,
+S016,What We Have Learned From the Framework for Ocean Observing: Evolution of the Global Ocean Observing System,10.3389/fmars.2019.00471,2,,,,,,,
+S017,Global Observing Needs in the Deep Ocean,10.3389/fmars.2019.00241,1,,,,,,,
+S017,Global Observing Needs in the Deep Ocean,10.3389/fmars.2019.00241,2,,,,,,,
+S018,Evolving and Sustaining Ocean Best Practices and Standards for the Next Decade,10.3389/fmars.2019.00277,1,,,,,,,
+S018,Evolving and Sustaining Ocean Best Practices and Standards for the Next Decade,10.3389/fmars.2019.00277,2,,,,,,,
+S019,Underwater Gliders for Ocean Research,10.4031/002533204787522703,1,,,,,,,
+S019,Underwater Gliders for Ocean Research,10.4031/002533204787522703,2,,,,,,,
+S020,Design and Control of Autonomous Underwater Robots: A Survey,10.1023/A:1008984701078,1,,,,,,,
+S020,Design and Control of Autonomous Underwater Robots: A Survey,10.1023/A:1008984701078,2,,,,,,,
+S021,AUV Navigation and Localization: A Review,10.1109/JOE.2013.2278891,1,,,,,,,
+S021,AUV Navigation and Localization: A Review,10.1109/JOE.2013.2278891,2,,,,,,,
+S022,"Autonomous Underwater Vehicles (AUVs): Their Past, Present and Future Contributions to the Advancement of Marine Geoscience",10.1016/j.margeo.2014.03.012,1,,,,,,,
+S022,"Autonomous Underwater Vehicles (AUVs): Their Past, Present and Future Contributions to the Advancement of Marine Geoscience",10.1016/j.margeo.2014.03.012,2,,,,,,,
+S023,Underwater Acoustic Sensor Networks: Research Challenges,10.1016/j.adhoc.2005.01.004,1,,,,,,,
+S023,Underwater Acoustic Sensor Networks: Research Challenges,10.1016/j.adhoc.2005.01.004,2,,,,,,,
+S024,Underwater Acoustic Communication Channels: Propagation Models and Statistical Characterization,10.1109/MCOM.2009.4752682,1,,,,,,,
+S024,Underwater Acoustic Communication Channels: Propagation Models and Statistical Characterization,10.1109/MCOM.2009.4752682,2,,,,,,,
+S025,"Underwater Sensor Networks: Applications, Advances and Challenges",10.1098/rsta.2011.0214,1,,,,,,,
+S025,"Underwater Sensor Networks: Applications, Advances and Challenges",10.1098/rsta.2011.0214,2,,,,,,,
+S026,Underwater Optical Wireless Communication,10.1109/ACCESS.2016.2552538,1,,,,,,,
+S026,Underwater Optical Wireless Communication,10.1109/ACCESS.2016.2552538,2,,,,,,,
+S027,Multi-AUV Control and Adaptive Sampling in Monterey Bay,10.1109/JOE.2006.880429,1,O3,C0,E2,A3,N0,none,B_DEVELOPER_TO_INDEPENDENT
+S027,Multi-AUV Control and Adaptive Sampling in Monterey Bay,10.1109/JOE.2006.880429,2,,,,,,,
+S028,Coordinated Control of an Underwater Glider Fleet in an Adaptive Ocean Sampling Field Experiment in Monterey Bay,10.1002/rob.20366,1,O3,C0,E2,A3,N0,none,B_DEVELOPER_TO_INDEPENDENT
+S028,Coordinated Control of an Underwater Glider Fleet in an Adaptive Ocean Sampling Field Experiment in Monterey Bay,10.1002/rob.20366,2,,,,,,,
+S029,A Digital Twin of Earth for the Green Transition,10.1038/s41558-021-00986-y,1,,,,,,,
+S029,A Digital Twin of Earth for the Green Transition,10.1038/s41558-021-00986-y,2,,,,,,,
+S030,OceanNet: A Principled Neural Operator-Based Digital Twin for Regional Oceans,10.1038/s41598-024-72145-0,1,O0,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S030,OceanNet: A Principled Neural Operator-Based Digital Twin for Regional Oceans,10.1038/s41598-024-72145-0,2,,,,,,,
+S031,XiHe: A Data-Driven Model for Global Ocean Eddy-Resolving Forecasting,10.48550/arXiv.2402.02995,1,O0,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S031,XiHe: A Data-Driven Model for Global Ocean Eddy-Resolving Forecasting,10.48550/arXiv.2402.02995,2,,,,,,,
+S032,Forecasting the Eddying Ocean with a Deep Neural Network,10.1038/s41467-025-57389-2,1,O1,C1;C2,E2,A0,N1;N2,inference;representation,B_OFFLINE_TO_OPERATIONAL
+S032,Forecasting the Eddying Ocean with a Deep Neural Network,10.1038/s41467-025-57389-2,2,,,,,,,
+S033,A Deep Learning Global Ocean Forecasting Model with Sub-Daily and Eddy-Resolving Resolution,10.1038/s41612-026-01444-2,1,O0,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S033,A Deep Learning Global Ocean Forecasting Model with Sub-Daily and Eddy-Resolving Resolution,10.1038/s41612-026-01444-2,2,,,,,,,
+S034,OceanForecastBench: A Benchmark Dataset for Data-Driven Global Ocean Forecasting,10.48550/arXiv.2511.18732,1,O2,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S034,OceanForecastBench: A Benchmark Dataset for Data-Driven Global Ocean Forecasting,10.48550/arXiv.2511.18732,2,,,,,,,
+S035,OceanBench: A Benchmark for Data-Driven Global Ocean Forecasting Systems,,1,O2,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S035,OceanBench: A Benchmark for Data-Driven Global Ocean Forecasting Systems,,2,,,,,,,
+S036,Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning,10.1146/annurev-control-042920-020211,1,,,,,,,
+S036,Safe Learning in Robotics: From Learning-Based Control to Safe Reinforcement Learning,10.1146/annurev-control-042920-020211,2,,,,,,,
+S037,A Survey of Algorithms for Black-Box Safety Validation of Cyber-Physical Systems,10.1613/jair.1.12716,1,,,,,,,
+S037,A Survey of Algorithms for Black-Box Safety Validation of Cyber-Physical Systems,10.1613/jair.1.12716,2,,,,,,,
+S038,"Data Assimilation in the Geosciences: An Overview of Methods, Issues, and Perspectives",10.1002/wcc.535,1,,,,,,,
+S038,"Data Assimilation in the Geosciences: An Overview of Methods, Issues, and Perspectives",10.1002/wcc.535,2,,,,,,,
+S039,"Strictly Proper Scoring Rules, Prediction, and Estimation",10.1198/016214506000001437,1,,,,,,,
+S039,"Strictly Proper Scoring Rules, Prediction, and Estimation",10.1198/016214506000001437,2,,,,,,,
+S040,Model-Based Reinforcement Learning: A Survey,10.1561/2200000086,1,,,,,,,
+S040,Model-Based Reinforcement Learning: A Survey,10.1561/2200000086,2,,,,,,,
+S041,"Digital Twin: Enabling Technologies, Challenges and Open Research",10.1109/ACCESS.2020.2998358,1,,,,,,,
+S041,"Digital Twin: Enabling Technologies, Challenges and Open Research",10.1109/ACCESS.2020.2998358,2,,,,,,,
+S042,Crafting the Future: Machine Learning for Ocean Forecasting,10.5194/sp-5-opsr-22-2025,1,,,,,,,
+S042,Crafting the Future: Machine Learning for Ocean Forecasting,10.5194/sp-5-opsr-22-2025,2,,,,,,,
+S043,Data-Driven Global Ocean Modeling for Seasonal to Decadal Prediction,10.1126/sciadv.adu2488,1,O0,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S043,Data-Driven Global Ocean Modeling for Seasonal to Decadal Prediction,10.1126/sciadv.adu2488,2,,,,,,,
+S044,Data-Driven Global Ocean Model Resolving Atmospherically Forced Ocean Dynamics,10.1126/sciadv.aed1225,1,O1,C0,E2,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S044,Data-Driven Global Ocean Model Resolving Atmospherically Forced Ocean Dynamics,10.1126/sciadv.aed1225,2,,,,,,,
+S045,AI-Driven Marine Robotics: Emerging Trends in Underwater Perception and Ecosystem Monitoring,10.1609/aaai.v40i48.42133,1,,,,,,,
+S045,AI-Driven Marine Robotics: Emerging Trends in Underwater Perception and Ecosystem Monitoring,10.1609/aaai.v40i48.42133,2,,,,,,,
+S046,Computational Ocean Acoustics,10.1007/978-1-4419-8678-8,1,,,,,,,
+S046,Computational Ocean Acoustics,10.1007/978-1-4419-8678-8,2,,,,,,,
+S047,Ocean Acoustic Tomography,10.1017/CBO9780511666926,1,,,,,,,
+S047,Ocean Acoustic Tomography,10.1017/CBO9780511666926,2,,,,,,,
+S048,A Survey of Underwater Vehicle Navigation: Recent Advances and New Challenges,,1,,,,,,,
+S048,A Survey of Underwater Vehicle Navigation: Recent Advances and New Challenges,,2,,,,,,,
+S049,Visually Augmented Navigation for Autonomous Underwater Vehicles,10.1109/JOE.2008.923547,1,O1,C1,E0,A0,N2,inference,B_DEVELOPER_TO_INDEPENDENT
+S049,Visually Augmented Navigation for Autonomous Underwater Vehicles,10.1109/JOE.2008.923547,2,,,,,,,
+S050,Learning Nonlinear Operators via DeepONet Based on the Universal Approximation Theorem of Operators,10.1038/s42256-021-00302-5,1,O0,C0,E1,A0,N0,none,B_SIMULATION_TO_FIELD
+S050,Learning Nonlinear Operators via DeepONet Based on the Universal Approximation Theorem of Operators,10.1038/s42256-021-00302-5,2,,,,,,,
+S051,Fourier Neural Operator for Parametric Partial Differential Equations,,1,O0,C0,E1,A0,N2,none,B_SIMULATION_TO_FIELD
+S051,Fourier Neural Operator for Parametric Partial Differential Equations,,2,,,,,,,
+S052,Neural Operator: Learning Maps Between Function Spaces with Applications to PDEs,,1,O0,C0,E1,A0,N2,none,B_SIMULATION_TO_FIELD
+S052,Neural Operator: Learning Maps Between Function Spaces with Applications to PDEs,,2,,,,,,,
+S053,FourCastNet: A Global Data-Driven High-Resolution Weather Model Using Adaptive Fourier Neural Operators,10.48550/arXiv.2202.11214,1,O0,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S053,FourCastNet: A Global Data-Driven High-Resolution Weather Model Using Adaptive Fourier Neural Operators,10.48550/arXiv.2202.11214,2,,,,,,,
+S054,Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks,10.1038/s41586-023-06185-3,1,O0,C2,E1,A0,N0,representation,B_OFFLINE_TO_OPERATIONAL
+S054,Accurate Medium-Range Global Weather Forecasting with 3D Neural Networks,10.1038/s41586-023-06185-3,2,,,,,,,
+S055,Learning Skillful Medium-Range Global Weather Forecasting,10.1126/science.adi2336,1,O0,C2,E1,A0,N0,representation,B_OFFLINE_TO_OPERATIONAL
+S055,Learning Skillful Medium-Range Global Weather Forecasting,10.1126/science.adi2336,2,,,,,,,
+S056,Neural General Circulation Models for Weather and Climate,10.1038/s41586-024-07744-y,1,O0,C3,E1,A0,N0,solver_coupling,B_OFFLINE_TO_OPERATIONAL
+S056,Neural General Circulation Models for Weather and Climate,10.1038/s41586-024-07744-y,2,O0,C3,E2,A0,N2,solver_coupling,B_OFFLINE_TO_OPERATIONAL
+S057,A Foundation Model for the Earth System,10.1038/s41586-025-09005-y,1,O1,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S057,A Foundation Model for the Earth System,10.1038/s41586-025-09005-y,2,,,,,,,
+S058,ClimaX: A Foundation Model for Weather and Climate,,1,O1,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S058,ClimaX: A Foundation Model for Weather and Climate,,2,O1,C0,E2,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S059,The Ensemble Kalman Filter: Theoretical Formulation and Practical Implementation,10.1007/s10236-003-0036-9,1,,,,,,,
+S059,The Ensemble Kalman Filter: Theoretical Formulation and Practical Implementation,10.1007/s10236-003-0036-9,2,,,,,,,
+S060,ECCO Version 4: An Integrated Framework for Non-Linear Inverse Modeling and Global Ocean State Estimation,10.5194/gmd-8-3071-2015,1,O2,C1,E0,A0,N0,inference,B_OFFLINE_TO_OPERATIONAL
+S060,ECCO Version 4: An Integrated Framework for Non-Linear Inverse Modeling and Global Ocean State Estimation,10.5194/gmd-8-3071-2015,2,,,,,,,
+S061,The Copernicus Global 1/12 Degree Oceanic and Sea Ice GLORYS12 Reanalysis,10.3389/feart.2021.698876,1,O2,C1,E0,A0,N0,inference,B_OFFLINE_TO_OPERATIONAL
+S061,The Copernicus Global 1/12 Degree Oceanic and Sea Ice GLORYS12 Reanalysis,10.3389/feart.2021.698876,2,,,,,,,
+S062,EN4: Quality Controlled Ocean Temperature and Salinity Profiles and Monthly Objective Analyses with Uncertainty Estimates,10.1002/2013JC009067,1,O2,C0,E0,A0,N1,none,B_OFFLINE_TO_OPERATIONAL
+S062,EN4: Quality Controlled Ocean Temperature and Salinity Profiles and Monthly Objective Analyses with Uncertainty Estimates,10.1002/2013JC009067,2,,,,,,,
+S063,Samudra: An AI Global Ocean Emulator for Climate,10.1029/2024GL114318,1,O1,C0,E2,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S063,Samudra: An AI Global Ocean Emulator for Climate,10.1029/2024GL114318,2,,,,,,,
+S064,GLONET: Mercator's End-to-End Neural Global Ocean Forecasting System,10.1029/2025JH000686,1,O0,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S064,GLONET: Mercator's End-to-End Neural Global Ocean Forecasting System,10.1029/2025JH000686,2,,,,,,,
+S065,Accurate Mediterranean Sea Forecasting via Graph-Based Deep Learning,10.1038/s41598-025-31177-w,1,O1,C2,E2,A0,N2,representation,B_OFFLINE_TO_OPERATIONAL
+S065,Accurate Mediterranean Sea Forecasting via Graph-Based Deep Learning,10.1038/s41598-025-31177-w,2,,,,,,,
+S066,NeuralOM: Neural Ocean Model for Subseasonal-to-Seasonal Simulation,10.1609/aaai.v40i17.38495,1,O0,C2,E1,A0,N0,representation,B_OFFLINE_TO_OPERATIONAL
+S066,NeuralOM: Neural Ocean Model for Subseasonal-to-Seasonal Simulation,10.1609/aaai.v40i17.38495,2,,,,,,,
+S067,Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting,10.48550/arXiv.2605.15470,1,O1,C2,E1,A0,N1;N2,representation,B_OFFLINE_TO_OPERATIONAL
+S067,Njord: A Probabilistic Graph Neural Network for Ensemble Ocean Forecasting,10.48550/arXiv.2605.15470,2,O1,C2,E2,A0,N1;N2,representation,B_OFFLINE_TO_OPERATIONAL
+S068,Data-Driven Ensemble Prediction of the Global Ocean,10.48550/arXiv.2603.19591,1,O1,C2,E2,A0,N1;N2,representation,B_OFFLINE_TO_OPERATIONAL
+S068,Data-Driven Ensemble Prediction of the Global Ocean,10.48550/arXiv.2603.19591,2,,,,,,,
+S069,Ocean Wave Forecasting with Deep Learning as Alternative to Conventional Models,10.1029/2025MS005285,1,O1,C0,E2,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S069,Ocean Wave Forecasting with Deep Learning as Alternative to Conventional Models,10.1029/2025MS005285,2,,,,,,,
+S070,Benchmarking of Machine Learning Ocean Subgrid Parameterizations in an Idealized Model,10.1029/2022MS003258,1,O0,C0,E0,A0,N2,none,B_SIMULATION_TO_FIELD
+S070,Benchmarking of Machine Learning Ocean Subgrid Parameterizations in an Idealized Model,10.1029/2022MS003258,2,O0,C3,E1,A0,N2,solver_coupling,B_SIMULATION_TO_FIELD
+S071,Stochastic-Deep Learning Parameterization of Ocean Momentum Forcing,10.1029/2021MS002534,1,O0,C0,E0,A0,N1;N2,none,B_SIMULATION_TO_FIELD
+S071,Stochastic-Deep Learning Parameterization of Ocean Momentum Forcing,10.1029/2021MS002534,2,O0,C3,E1,A0,N1;N2,solver_coupling,B_SIMULATION_TO_FIELD
+S072,Physical Invariance in Neural Networks for Subgrid-Scale Scalar Flux Modeling,10.1103/PhysRevFluids.6.024607,1,O0,C2,E0,A0,N2,representation,B_SIMULATION_TO_FIELD
+S072,Physical Invariance in Neural Networks for Subgrid-Scale Scalar Flux Modeling,10.1103/PhysRevFluids.6.024607,2,O0,C2;C3,E1,A0,N2,representation;solver_coupling,B_SIMULATION_TO_FIELD
+S073,A Stable Implementation of a Data-Driven Scale-Aware Mesoscale Parameterization,10.1029/2023MS004104,1,O0,C0,E0,A0,N2,none,B_SIMULATION_TO_FIELD
+S073,A Stable Implementation of a Data-Driven Scale-Aware Mesoscale Parameterization,10.1029/2023MS004104,2,O0,C3,E1,A0,N2,solver_coupling,B_SIMULATION_TO_FIELD
+S074,Combining Data Assimilation and Machine Learning to Emulate a Dynamical Model from Sparse and Noisy Observations: A Case Study with the Lorenz 96 Model,10.1016/j.jocs.2020.101171,1,O2,C1,E1,A0,N2,inference,B_SIMULATION_TO_FIELD
+S074,Combining Data Assimilation and Machine Learning to Emulate a Dynamical Model from Sparse and Noisy Observations: A Case Study with the Lorenz 96 Model,10.1016/j.jocs.2020.101171,2,,,,,,,
+S075,Sampling-Based Robotic Information Gathering Algorithms,10.1177/0278364914533443,1,O3,C0,E2,A2,N0,none,B_SIMULATION_TO_FIELD
+S075,Sampling-Based Robotic Information Gathering Algorithms,10.1177/0278364914533443,2,,,,,,,
+S076,"Stonefish: An Advanced Open-Source Simulation Tool Designed for Marine Robotics, with a ROS Interface",10.1109/OCEANSE.2019.8867434,1,,,,,,,
+S076,"Stonefish: An Advanced Open-Source Simulation Tool Designed for Marine Robotics, with a ROS Interface",10.1109/OCEANSE.2019.8867434,2,,,,,,,
+S077,HoloOcean: An Underwater Robotics Simulator,10.1109/ICRA46639.2022.9812353,1,,,,,,,
+S077,HoloOcean: An Underwater Robotics Simulator,10.1109/ICRA46639.2022.9812353,2,,,,,,,
+S078,Stonefish: Supporting Machine Learning Research in Marine Robotics,10.1109/ICRA55743.2025.11127421,1,,,,,,,
+S078,Stonefish: Supporting Machine Learning Research in Marine Robotics,10.1109/ICRA55743.2025.11127421,2,,,,,,,
+S079,SWellEx-96 Experimental Data Archive,,1,,,,,,,
+S079,SWellEx-96 Experimental Data Archive,,2,,,,,,,
+S080,Passive Acoustic Data Collection,10.25921/PF0H-SQ72,1,,,,,,,
+S080,Passive Acoustic Data Collection,10.25921/PF0H-SQ72,2,,,,,,,
+S081,The GEBCO\_2026 Grid: A Continuous Terrain Model for Oceans and Land at 15 Arc-Second Intervals,10.5285/4f68d5c7-45eb-f999-e063-7086abc036fa,1,,,,,,,
+S081,The GEBCO\_2026 Grid: A Continuous Terrain Model for Oceans and Land at 15 Arc-Second Intervals,10.5285/4f68d5c7-45eb-f999-e063-7086abc036fa,2,,,,,,,
+S082,Marine Data Store and Global Ocean Products,,1,,,,,,,
+S082,Marine Data Store and Global Ocean Products,,2,,,,,,,
+S083,The FAIR Guiding Principles for Scientific Data Management and Stewardship,10.1038/sdata.2016.18,1,,,,,,,
+S083,The FAIR Guiding Principles for Scientific Data Management and Stewardship,10.1038/sdata.2016.18,2,,,,,,,
+S084,Datasheets for Datasets,10.1145/3458723,1,,,,,,,
+S084,Datasheets for Datasets,10.1145/3458723,2,,,,,,,
+S085,Model Cards for Model Reporting,10.1145/3287560.3287596,1,,,,,,,
+S085,Model Cards for Model Reporting,10.1145/3287560.3287596,2,,,,,,,
+S086,Improving Reproducibility in Machine Learning Research: A Report from the NeurIPS 2019 Reproducibility Program,,1,,,,,,,
+S086,Improving Reproducibility in Machine Learning Research: A Report from the NeurIPS 2019 Reproducibility Program,,2,,,,,,,
+S087,Simple and Scalable Predictive Uncertainty Estimation Using Deep Ensembles,,1,O0,C0,E0,A0,N1;N2,none,B_DEVELOPER_TO_INDEPENDENT
+S087,Simple and Scalable Predictive Uncertainty Estimation Using Deep Ensembles,,2,,,,,,,
+S088,Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty under Dataset Shift,,1,O0,C0,E0,A0,N1;N2,none,B_DEVELOPER_TO_INDEPENDENT
+S088,Can You Trust Your Model's Uncertainty? Evaluating Predictive Uncertainty under Dataset Shift,,2,,,,,,,
+S089,A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks,,1,O0,C0,E0,A0,N2,none,B_DEVELOPER_TO_INDEPENDENT
+S089,A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks,,2,,,,,,,
+S090,Guidelines for Snowballing in Systematic Literature Studies and a Replication in Software Engineering,10.1145/2601248.2601268,1,,,,,,,
+S090,Guidelines for Snowballing in Systematic Literature Studies and a Replication in Software Engineering,10.1145/2601248.2601268,2,,,,,,,
+S091,Literature Review as a Research Methodology: An Overview and Guidelines,10.1016/j.jbusres.2019.07.039,1,,,,,,,
+S091,Literature Review as a Research Methodology: An Overview and Guidelines,10.1016/j.jbusres.2019.07.039,2,,,,,,,
+S092,A Framework for Hybrid Physics--AI Coupled Ocean Models,10.48550/arXiv.2510.22676,1,O0,C3,E1,A0,N2,solver_coupling,B_SIMULATION_TO_FIELD
+S092,A Framework for Hybrid Physics--AI Coupled Ocean Models,10.48550/arXiv.2510.22676,2,O1,C3,E2,A0,N0,solver_coupling,B_SIMULATION_TO_FIELD
+S093,Applications of Deep Learning in Physical Oceanography: A Comprehensive Review,10.3389/fmars.2024.1396322,1,,,,,,,
+S093,Applications of Deep Learning in Physical Oceanography: A Comprehensive Review,10.3389/fmars.2024.1396322,2,,,,,,,
+S094,"Deep Learning for Ocean Forecasting: A Comprehensive Review of Methods, Applications, and Datasets",10.1109/TCYB.2025.3539990,1,,,,,,,
+S094,"Deep Learning for Ocean Forecasting: A Comprehensive Review of Methods, Applications, and Datasets",10.1109/TCYB.2025.3539990,2,,,,,,,
+S095,"AI for Atmosphere--Ocean Sciences: Advancements, Challenges and Ways Forward",10.1093/nsr/nwag063,1,,,,,,,
+S095,"AI for Atmosphere--Ocean Sciences: Advancements, Challenges and Ways Forward",10.1093/nsr/nwag063,2,,,,,,,
+S096,A Survey on World Models Grounded in Acoustic Physical Information,10.48550/arXiv.2506.13833,1,,,,,,,
+S096,A Survey on World Models Grounded in Acoustic Physical Information,10.48550/arXiv.2506.13833,2,,,,,,,
+S097,Nonlinear Acoustic Computing and Reinforcement Learning for Robust Human--Robot Audition in Challenging Environments,10.1121/2.0002158,1,O1,C2,E2,A2,N2,representation,B_SIMULATION_TO_FIELD
+S097,Nonlinear Acoustic Computing and Reinforcement Learning for Robust Human--Robot Audition in Challenging Environments,10.1121/2.0002158,2,,,,,,,
+S098,A Physics-Informed Acoustic World Model for Challenging Scene Denoising and Dynamic Prediction,10.1121/10.0040518,1,O0,C1,E0,A0,N2,objective_or_projection,B_DEVELOPER_TO_INDEPENDENT
+S098,A Physics-Informed Acoustic World Model for Challenging Scene Denoising and Dynamic Prediction,10.1121/10.0040518,2,,,,,,,
+S099,SonarKAN: Sonar Kolmogorov--Arnold Network for Disentangling Passive Sonar Signatures,10.21203/rs.3.rs-8942861/v1,1,O0,C1;C2,E0,A0,N2,objective_or_projection;representation,B_SIMULATION_TO_FIELD
+S099,SonarKAN: Sonar Kolmogorov--Arnold Network for Disentangling Passive Sonar Signatures,10.21203/rs.3.rs-8942861/v1,2,,,,,,,
+S100,Physics-Gated Streaming Multi-Task Speech Front-End for Reliability-Weighted Teleconference Affect Aggregation,10.1109/ACCESS.2026.3687928,1,O1,C2,E0,A0,N2,representation,B_DEVELOPER_TO_INDEPENDENT
+S100,Physics-Gated Streaming Multi-Task Speech Front-End for Reliability-Weighted Teleconference Affect Aggregation,10.1109/ACCESS.2026.3687928,2,O1,C2,E0,A0,N2,representation,B_DEVELOPER_TO_INDEPENDENT
+S101,The State of the Art in Underwater Acoustic Telemetry,10.1109/48.820733,1,,,,,,,
+S101,The State of the Art in Underwater Acoustic Telemetry,10.1109/48.820733,2,,,,,,,
+S102,Underwater Acoustic Communications and Networking: Recent Advances and Future Challenges,10.4031/002533208786861263,1,,,,,,,
+S102,Underwater Acoustic Communications and Networking: Recent Advances and Future Challenges,10.4031/002533208786861263,2,,,,,,,
+S103,Acoustic Propagation Considerations for Underwater Acoustic Communications Network Development,10.1145/1347364.1347370,1,,,,,,,
+S103,Acoustic Propagation Considerations for Underwater Acoustic Communications Network Development,10.1145/1347364.1347370,2,,,,,,,
+S104,Physics-Informed Neural Networks for Underwater Acoustic Propagation Modeling: A Review,10.3390/electronics15020480,1,,,,,,,
+S104,Physics-Informed Neural Networks for Underwater Acoustic Propagation Modeling: A Review,10.3390/electronics15020480,2,,,,,,,
+S105,Research on Intelligent Predicting Method of Underwater Acoustic Field Based on Physics-Informed Neural Network,10.3389/fmars.2025.1665305,1,O0,C1,E0,A0,N0,objective_or_projection,B_SIMULATION_TO_FIELD
+S105,Research on Intelligent Predicting Method of Underwater Acoustic Field Based on Physics-Informed Neural Network,10.3389/fmars.2025.1665305,2,,,,,,,
+S106,Principles of Sonar Performance Modeling,10.1007/978-3-540-87662-5,1,,,,,,,
+S106,Principles of Sonar Performance Modeling,10.1007/978-3-540-87662-5,2,,,,,,,
+S107,Machine Learning in Acoustics: Theory and Applications,10.1121/1.5133944,1,,,,,,,
+S107,Machine Learning in Acoustics: Theory and Applications,10.1121/1.5133944,2,,,,,,,
+S108,Global Seasonal Forecasts of Marine Heatwaves,10.1038/s41586-022-04573-9,1,O0,C0,E1,A0,N1;N2,none,B_OFFLINE_TO_OPERATIONAL
+S108,Global Seasonal Forecasts of Marine Heatwaves,10.1038/s41586-022-04573-9,2,,,,,,,
+S109,Seasonal Forecasting of Subsurface Marine Heatwaves,10.1038/s43247-023-00892-5,1,O1,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S109,Seasonal Forecasting of Subsurface Marine Heatwaves,10.1038/s43247-023-00892-5,2,,,,,,,
+S110,Machine Learning Methods to Predict Sea Surface Temperature and Marine Heatwave Occurrence: A Case Study of the Mediterranean Sea,10.5194/os-20-417-2024,1,O0,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S110,Machine Learning Methods to Predict Sea Surface Temperature and Marine Heatwave Occurrence: A Case Study of the Mediterranean Sea,10.5194/os-20-417-2024,2,,,,,,,
+S111,Multi-Month Forecasts of Marine Heatwaves and Ocean Acidification Extremes,10.1038/s41561-024-01593-0,1,O0,C0,E1,A0,N1;N2,none,B_OFFLINE_TO_OPERATIONAL
+S111,Multi-Month Forecasts of Marine Heatwaves and Ocean Acidification Extremes,10.1038/s41561-024-01593-0,2,,,,,,,
+S112,Seasonal Arctic Sea Ice Forecasting with Probabilistic Deep Learning,10.1038/s41467-021-25257-4,1,O1,C0,E1,A0,N1;N2,none,B_OFFLINE_TO_OPERATIONAL
+S112,Seasonal Arctic Sea Ice Forecasting with Probabilistic Deep Learning,10.1038/s41467-021-25257-4,2,,,,,,,
+S113,Deep Learning Subgrid-Scale Parametrisations for Short-Term Forecasting of Sea-Ice Dynamics with a Maxwell Elasto-Brittle Rheology,10.5194/tc-17-2965-2023,1,O1,C3,E2,A0,N2,solver_coupling,B_SIMULATION_TO_FIELD
+S113,Deep Learning Subgrid-Scale Parametrisations for Short-Term Forecasting of Sea-Ice Dynamics with a Maxwell Elasto-Brittle Rheology,10.5194/tc-17-2965-2023,2,,,,,,,
+S114,Data-Driven Surrogate Modeling of High-Resolution Sea-Ice Thickness in the Arctic,10.5194/tc-18-1791-2024,1,O1,C2,E2,A0,N2,representation,B_SIMULATION_TO_FIELD
+S114,Data-Driven Surrogate Modeling of High-Resolution Sea-Ice Thickness in the Arctic,10.5194/tc-18-1791-2024,2,,,,,,,
+S115,Climate-Invariant Machine Learning,10.1126/sciadv.adj7250,1,O0,C2,E0,A0,N2,representation,B_SIMULATION_TO_FIELD
+S115,Climate-Invariant Machine Learning,10.1126/sciadv.adj7250,2,,,,,,,
+S116,Can AI Weather Models Predict Out-of-Distribution Gray Swan Tropical Cyclones?,10.1073/pnas.2420914122,1,O0,C0,E1,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S116,Can AI Weather Models Predict Out-of-Distribution Gray Swan Tropical Cyclones?,10.1073/pnas.2420914122,2,,,,,,,
+S117,"Sonar-Based Deep Learning in Underwater Robotics: Overview, Robustness, and Challenges",10.1109/JOE.2025.3531933,1,,,,,,,
+S117,"Sonar-Based Deep Learning in Underwater Robotics: Overview, Robustness, and Challenges",10.1109/JOE.2025.3531933,2,,,,,,,
+S118,Towards Robust Data-Driven Underwater Acoustic Localization: A Deep CNN Solution with Performance Guarantees for Model Mismatch,10.1109/ICASSP49357.2023.10094981,1,O0,C0,E0,A0,N2,none,B_SIMULATION_TO_FIELD
+S118,Towards Robust Data-Driven Underwater Acoustic Localization: A Deep CNN Solution with Performance Guarantees for Model Mismatch,10.1109/ICASSP49357.2023.10094981,2,,,,,,,
+S119,Advances and Applications of Machine Learning in Underwater Acoustics,10.1007/s44295-023-00005-0,1,,,,,,,
+S119,Advances and Applications of Machine Learning in Underwater Acoustics,10.1007/s44295-023-00005-0,2,,,,,,,
+S120,Long-Term Predictions of Loop Current Eddy Evolutions Using OceanNet: A Fourier Neural Operator-Based Data-Driven Ocean Emulator,10.1175/AIES-D-24-0039.1,1,O0,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S120,Long-Term Predictions of Loop Current Eddy Evolutions Using OceanNet: A Fourier Neural Operator-Based Data-Driven Ocean Emulator,10.1175/AIES-D-24-0039.1,2,,,,,,,
+S121,Vertical Structures of Marine Heatwaves,10.1038/s41467-023-42219-0,1,O1,C0,E0,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S121,Vertical Structures of Marine Heatwaves,10.1038/s41467-023-42219-0,2,,,,,,,
+S122,Intensification of Future Subsurface Marine Heatwaves in an Eddy-Resolving Model,10.1038/s41467-024-54946-z,1,O0,C0,E2,A0,N2,none,B_SIMULATION_TO_FIELD
+S122,Intensification of Future Subsurface Marine Heatwaves in an Eddy-Resolving Model,10.1038/s41467-024-54946-z,2,,,,,,,
+S123,Principled Fourier Neural Operators for High-Resolution Regional Ocean Modeling,10.1029/2025JH001131,1,O0,C2,E1,A0,N2,representation,B_SIMULATION_TO_FIELD
+S123,Principled Fourier Neural Operators for High-Resolution Regional Ocean Modeling,10.1029/2025JH001131,2,,,,,,,
+S124,Deep Unsupervised Adversarial Domain Adaptation for Underwater Source Range Estimation,10.1121/10.0022380,1,O0,C0,E0,A0,N2,none,B_DEVELOPER_TO_INDEPENDENT
+S124,Deep Unsupervised Adversarial Domain Adaptation for Underwater Source Range Estimation,10.1121/10.0022380,2,,,,,,,
+S125,Unsupervised Domain Adaptation for Source Localization Using Ships of Opportunity with a Deep Vertical Line Array,10.1109/JOE.2023.3301089,1,O0,C0,E0,A0,N2,none,B_DEVELOPER_TO_INDEPENDENT
+S125,Unsupervised Domain Adaptation for Source Localization Using Ships of Opportunity with a Deep Vertical Line Array,10.1109/JOE.2023.3301089,2,,,,,,,
+S126,Alleviating Negative Transfer Using Unsupervised Adversarial Partial Domain Adaptation for Underwater Source Range Estimation,10.1121/10.0039634,1,O0,C0,E0,A0,N2,none,B_DEVELOPER_TO_INDEPENDENT
+S126,Alleviating Negative Transfer Using Unsupervised Adversarial Partial Domain Adaptation for Underwater Source Range Estimation,10.1121/10.0039634,2,,,,,,,
+S127,Joint Source--Environment Adaptation of Data-Driven Underwater Acoustic Source Ranging Based on Model Uncertainty,10.1109/JOE.2025.3638518,1,O0,C1,E3,A0,N2,inference,B_DEVELOPER_TO_INDEPENDENT
+S127,Joint Source--Environment Adaptation of Data-Driven Underwater Acoustic Source Ranging Based on Model Uncertainty,10.1109/JOE.2025.3638518,2,,,,,,,
+S128,Object-Based Evaluation of Seasonal-to-Multiyear Marine Heatwave Predictions,10.1029/2025GL115021,1,O0,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S128,Object-Based Evaluation of Seasonal-to-Multiyear Marine Heatwave Predictions,10.1029/2025GL115021,2,,,,,,,
+S129,Benchmark Dataset and Deep Learning Method for Global Tropical Cyclone Forecasting,10.1038/s41467-025-61087-4,1,O1,C0,E1,A0,N0,none,B_DEVELOPER_TO_INDEPENDENT
+S129,Benchmark Dataset and Deep Learning Method for Global Tropical Cyclone Forecasting,10.1038/s41467-025-61087-4,2,,,,,,,
+S130,A Regional Artificial Intelligence Model for Skillful Typhoon Prediction,10.1038/s44304-026-00219-2,1,O1,C0,E1,A0,N0,none,B_OFFLINE_TO_OPERATIONAL
+S130,A Regional Artificial Intelligence Model for Skillful Typhoon Prediction,10.1038/s44304-026-00219-2,2,,,,,,,
+S131,Sea Ice Data Assimilation in ORAS6,10.5194/tc-20-3299-2026,1,O2,C1,E0,A0,N0,inference,B_OFFLINE_TO_OPERATIONAL
+S131,Sea Ice Data Assimilation in ORAS6,10.5194/tc-20-3299-2026,2,,,,,,,
+S132,Enhanced Prediction Skill of Antarctic Sea Ice through Sea Ice Thickness Assimilation,10.5194/tc-20-3795-2026,1,O2,C1,E0,A0,N0,inference,B_OFFLINE_TO_OPERATIONAL
+S132,Enhanced Prediction Skill of Antarctic Sea Ice through Sea Ice Thickness Assimilation,10.5194/tc-20-3795-2026,2,O2,C1,E1,A0,N0,inference,B_OFFLINE_TO_OPERATIONAL
+S133,The Effects of Assimilating a Sub-grid-scale Sea Ice Thickness Distribution in a New Arctic Sea Ice Data Assimilation System,10.5194/tc-17-2509-2023,1,O2,C1,E0,A0,N0,inference,B_OFFLINE_TO_OPERATIONAL
+S133,The Effects of Assimilating a Sub-grid-scale Sea Ice Thickness Distribution in a New Arctic Sea Ice Data Assimilation System,10.5194/tc-17-2509-2023,2,,,,,,,
+S134,Reconstruction of Arctic Sea Ice Thickness (1992--2010) Based on a Hybrid Machine Learning and Data Assimilation Approach,10.5194/tc-19-731-2025,1,O2,C1,E0,A0,N2,inference,B_OFFLINE_TO_OPERATIONAL
+S134,Reconstruction of Arctic Sea Ice Thickness (1992--2010) Based on a Hybrid Machine Learning and Data Assimilation Approach,10.5194/tc-19-731-2025,2,,,,,,,
+S135,Sea Ice Albedo Bounded Data Assimilation and Its Impact on Modeling: A Regional Approach,10.5194/tc-20-1523-2026,1,O2,C1,E0,A0,N0,objective_or_projection;inference,B_OFFLINE_TO_OPERATIONAL
+S135,Sea Ice Albedo Bounded Data Assimilation and Its Impact on Modeling: A Regional Approach,10.5194/tc-20-1523-2026,2,,,,,,,
+S136,SSFDiffusion: A Degradation-Aware Diffusion Model for Ocean Sound Speed Field Super-Resolution,10.1109/JSTARS.2026.3676542,1,O2,C0,E0,A0,N2,none,B_OFFLINE_TO_OPERATIONAL
+S136,SSFDiffusion: A Degradation-Aware Diffusion Model for Ocean Sound Speed Field Super-Resolution,10.1109/JSTARS.2026.3676542,2,,,,,,,
+S137,Gain Assessment of Environmental-Informed Subarray Processing: The ALMA 2017 Example,10.1109/JOE.2026.3657278,1,O1,C1,E0,A0,N2,inference,B_DEVELOPER_TO_INDEPENDENT
+S137,Gain Assessment of Environmental-Informed Subarray Processing: The ALMA 2017 Example,10.1109/JOE.2026.3657278,2,,,,,,,
+S138,Testing and Evaluation of Underwater Vehicle Using Hardware-in-the-Loop Simulation with HoloOcean,10.23919/OCEANS59106.2025.11245188,1,O3,C0,E2,A2,N2,none,B_SIMULATION_TO_FIELD
+S138,Testing and Evaluation of Underwater Vehicle Using Hardware-in-the-Loop Simulation with HoloOcean,10.23919/OCEANS59106.2025.11245188,2,O3,C0,E2,A2,N2,none,B_DEVELOPER_TO_INDEPENDENT
+S139,Foundation Models on the Bridge: Semantic Hazard Detection and Safety Maneuvers for Maritime Autonomy with Vision-Language Models,10.1016/j.oceaneng.2026.124646,1,O0,C0,E2,A1,N2;N3,none,B_DEVELOPER_TO_INDEPENDENT
+S139,Foundation Models on the Bridge: Semantic Hazard Detection and Safety Maneuvers for Maritime Autonomy with Vision-Language Models,10.1016/j.oceaneng.2026.124646,2,O3,C0,E2,A2,N2;N3,none,B_DEVELOPER_TO_INDEPENDENT
+S140,Reliability Assessment and Safety Arguments for Machine Learning Components in System Assurance,10.1145/3570918,1,O0,C0,E0,A0,N1;N2;N3,none,B_DEVELOPER_TO_INDEPENDENT
+S140,Reliability Assessment and Safety Arguments for Machine Learning Components in System Assurance,10.1145/3570918,2,,,,,,,
+S141,Autonomous Sea Turtle Robot for Marine Fieldwork,10.48550/arXiv.2602.21389,1,O3,C0,E2,A2,N2,none,B_CONTROLLED_TO_OPEN_OCEAN
+S141,Autonomous Sea Turtle Robot for Marine Fieldwork,10.48550/arXiv.2602.21389,2,,,,,,,
+S142,Recent Advances and Opportunities for Multi-Robot Systems in Oceanography,10.3389/fmars.2026.1823155,1,,,,,,,
+S142,Recent Advances and Opportunities for Multi-Robot Systems in Oceanography,10.3389/fmars.2026.1823155,2,,,,,,,

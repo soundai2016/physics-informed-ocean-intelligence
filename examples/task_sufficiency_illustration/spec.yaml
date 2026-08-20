@@ -1,0 +1,11 @@
+type: synthetic_illustration
+purpose: task_sufficiency
+empirical_data: false
+parameters:
+  depth_points: 201
+  kernels: 12
+  resolved_modes: 4
+  range_m: 20000
+  frequency_hz: 500
+  state_rmse_mps: 0.1
+  ill_conditioning_epsilon: 0.005

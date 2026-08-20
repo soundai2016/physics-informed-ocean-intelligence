@@ -1,0 +1,8 @@
+dimension,n_studies,n_observations,exact_agreement,exact_agreement_ci95_low,exact_agreement_ci95_high,cohen_kappa,kappa_ci95_low,kappa_ci95_high,mean_set_jaccard,jaccard_ci95_low,jaccard_ci95_high,eligibility_rule
+O,72,82,0.707317,0.607143,0.802329,0.535082,0.376951,0.678143,0.707317,0.607143,0.802329,same positive configuration count and fixed slot alignment
+C,72,82,0.890244,0.809524,0.961538,0.824869,0.702634,0.929111,0.920732,0.861446,0.969136,same positive configuration count and fixed slot alignment
+E,72,82,0.939024,0.884615,0.987654,0.908236,0.825307,0.980687,0.939024,0.884615,0.987654,same positive configuration count and fixed slot alignment
+A,72,82,0.975610,0.938272,1.000000,0.857267,0.674993,1.000000,0.975610,0.938272,1.000000,same positive configuration count and fixed slot alignment
+N,72,82,0.878049,0.788889,0.952395,0.803922,0.680333,0.918446,0.926829,0.871951,0.974026,same positive configuration count and fixed slot alignment
+physics_insertion,72,82,0.890244,0.809524,0.961538,0.829048,0.707645,0.930060,0.920732,0.861446,0.969136,same positive configuration count and fixed slot alignment
+claim_boundary,72,82,0.829268,0.741176,0.910256,0.719041,0.569756,0.848917,0.829268,0.741176,0.910256,same positive configuration count and fixed slot alignment

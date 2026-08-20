@@ -1,0 +1,14 @@
+dimension,n_studies,n_observations,exact_agreement,exact_agreement_ci95_low,exact_agreement_ci95_high,cohen_kappa,kappa_ci95_low,kappa_ci95_high,mean_set_jaccard,jaccard_ci95_low,jaccard_ci95_high,dimension_group,facet,a02_positive,a03_positive
+C:C0,72,82,0.951220,0.900000,0.988239,0.901026,0.794207,0.976265,,,,C,C0,47,45
+C:C1,72,82,0.975610,0.937500,1.000000,0.928819,0.804994,1.000000,,,,C,C1,18,18
+C:C2,72,82,0.914634,0.839080,0.975309,0.721629,0.452099,0.915171,,,,C,C2,16,15
+C:C3,72,82,0.987805,0.961538,1.000000,0.926655,0.654545,1.000000,,,,C,C3,8,7
+N:N0,72,82,0.987805,0.962025,1.000000,0.974518,0.916505,1.000000,,,,N,N0,33,32
+N:N1,72,82,0.951220,0.900000,0.988235,0.772222,0.534946,0.945409,,,,N,N1,10,10
+N:N2,72,82,0.914634,0.851852,0.966824,0.828452,0.703008,0.932663,,,,N,N2,42,49
+N:N3,72,82,0.987805,0.962963,1.000000,0.661157,0.645399,0.661479,,,,N,N3,1,2
+physics_insertion:none,72,82,0.951220,0.900000,0.988239,0.901026,0.794207,0.976265,,,,physics_insertion,none,47,45
+physics_insertion:objective_or_projection,72,82,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,,,,physics_insertion,objective_or_projection,5,5
+physics_insertion:inference,72,82,0.975610,0.937500,1.000000,0.913866,0.762485,1.000000,,,,physics_insertion,inference,14,14
+physics_insertion:representation,72,82,0.914634,0.839080,0.975309,0.721629,0.452099,0.915171,,,,physics_insertion,representation,16,15
+physics_insertion:solver_coupling,72,82,0.987805,0.961538,1.000000,0.926655,0.654545,1.000000,,,,physics_insertion,solver_coupling,8,7

@@ -1,0 +1,14 @@
+record_id,citation_key,decision,review_scope,rationale
+R25-01,heimbach2025crafting,included_existing,Ocean forecasting and physics–ML insertion review,"Directly compares ocean-prediction workflows, hybrid insertion, robustness, and decision support."
+R25-02,hao2025oceanforecastreview,included_existing,Deep-learning ocean forecasting review,Closest forecast-model/dataset/horizon synthesis.
+R25-03,aubard2025sonarRobustness,included_existing,Robust sonar and underwater perception review,Closest review organized around receiver/sonar robustness and distribution shift.
+R25-04,wang2025physics,included_new,Physics-guided deep learning for dynamical systems,Closest cross-domain survey of computational mechanisms for inserting physical knowledge into learned dynamical systems.
+R26-00,li2026artificial,included_new,AI ocean phenomena forecasting,"Closest 2026 survey organized around ocean phenomena, state variables, physical drivers, and forecast timescales."
+R26-01,luo2026atmosocean,included_existing,AI for atmosphere–ocean sciences review,"Broad 2026 ocean-state, hybrid-system, and trustworthy-AI synthesis."
+R26-02,gao2026uapinnreview,included_existing,PINNs for underwater acoustic propagation review,Closest physics-informed acoustic-propagation review.
+R26-03,raine2026marine,included_existing,AI-driven marine robotics review,Closest AI-perception/monitoring marine-robotics synthesis.
+R26-04,garwood2026multirobot,included_new,Multi-robot systems in oceanography review,"Published 13 July 2026, before cutoff; directly covers coordinated agency and field-deployment gaps."
+R25-X1,nasem2025forecasting,excluded_context,Ocean-science decadal survey,Important context report but not a method-comparison review of ocean AI.
+R25-X2,ma2025auvtechnologies,excluded_broader_scope,AUV technology review,Broader vehicle-technology scope; AI evidence transfer is not the organizing comparison unit.
+R25-X3,kanashiro2025rovauv,excluded_broader_scope,ROV/AUV inspection and maintenance review,Application/platform integration review without the cross-interface AI evaluation contract.
+R25-X4,zhao2025uatr,excluded_narrow_scope,Underwater acoustic target-recognition review,"Narrow target-recognition scope; does not connect ocean state, propagation, and receiver-task evidence."

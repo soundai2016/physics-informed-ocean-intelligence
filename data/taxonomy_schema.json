@@ -1,0 +1,699 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ocean-intelligence:ocean-card:1.2.0",
+  "title": "OCEAN system card",
+  "description": "Machine-readable claim and evidence record for physics-informed ocean-intelligence systems.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "system_id",
+    "title",
+    "ocean",
+    "physics",
+    "evidence",
+    "scope",
+    "data_provenance",
+    "evaluation",
+    "claims",
+    "exclusions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.2.0"
+    },
+    "system_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "citation_key": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "task_summary": {
+      "type": "string"
+    },
+    "ocean": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observations",
+        "constraints",
+        "evolution",
+        "agency",
+        "assurance"
+      ],
+      "properties": {
+        "observations": {
+          "$ref": "#/$defs/axisO"
+        },
+        "constraints": {
+          "$ref": "#/$defs/axisC"
+        },
+        "evolution": {
+          "$ref": "#/$defs/axisE"
+        },
+        "agency": {
+          "$ref": "#/$defs/axisA"
+        },
+        "assurance": {
+          "$ref": "#/$defs/axisN"
+        }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "publication_status",
+        "setting",
+        "independence"
+      ],
+      "properties": {
+        "publication_status": {
+          "enum": [
+            "peer_reviewed",
+            "book",
+            "editor_reviewed_proceedings",
+            "preprint",
+            "meeting_abstract",
+            "resource",
+            "unknown"
+          ]
+        },
+        "setting": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "offline",
+              "replay",
+              "simulation",
+              "hardware_in_loop",
+              "controlled_water",
+              "field",
+              "operational"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence_notes": {
+          "type": "string"
+        },
+        "independence": {
+          "enum": [
+            "DEV",
+            "EXT_REPLICATION",
+            "EXT_AUDIT"
+          ]
+        }
+      }
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "geography",
+        "time_horizon",
+        "variables",
+        "platforms"
+      ],
+      "properties": {
+        "geography": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "time_horizon": {
+          "type": "string",
+          "minLength": 1
+        },
+        "variables": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "platforms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "compute_tier": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "edge",
+              "fleet",
+              "shore",
+              "unspecified"
+            ]
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "data_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "kind",
+          "role",
+          "shared_lineage_risk"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "direct_observation",
+              "quality_controlled_observation",
+              "reanalysis",
+              "state_estimate",
+              "simulation",
+              "map",
+              "other"
+            ]
+          },
+          "role": {
+            "enum": [
+              "train",
+              "validation",
+              "test",
+              "initialization",
+              "forcing",
+              "independent_verification"
+            ]
+          },
+          "version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "persistent_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "shared_lineage_risk": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "metrics",
+        "baselines",
+        "held_out_regimes",
+        "verification_source",
+        "leakage_notes"
+      ],
+      "properties": {
+        "specification_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "metrics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "baselines": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "held_out_regimes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "verification_source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "leakage_notes": {
+          "type": "string",
+          "minLength": 1
+        },
+        "resource_metrics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "reporting_quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "held_out_evaluation": {
+          "type": "boolean"
+        },
+        "baseline_comparison": {
+          "type": "boolean"
+        },
+        "uncertainty_evaluation": {
+          "type": "boolean"
+        },
+        "code_available": {
+          "type": "boolean"
+        },
+        "data_access_documented": {
+          "type": "boolean"
+        },
+        "failure_analysis": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "coding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "decision_rule_version": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "review_scope": {
+          "type": "string",
+          "description": "Optional note on how the card was checked or updated."
+        }
+      }
+    },
+    "artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "code_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "model_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "data_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "checksum": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "physics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "insertion_points",
+        "physics_informed_status",
+        "notes"
+      ],
+      "properties": {
+        "insertion_points": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "objective_or_projection",
+              "inference",
+              "representation",
+              "solver_coupling",
+              "action_constraint",
+              "none"
+            ]
+          }
+        },
+        "physics_informed_status": {
+          "enum": [
+            "established",
+            "not_established"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "axisO": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "levels",
+        "evidence",
+        "source_locator"
+      ],
+      "properties": {
+        "levels": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "O0",
+              "O1",
+              "O2",
+              "O3"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        },
+        "source_locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "section",
+            "page",
+            "verification_status"
+          ],
+          "properties": {
+            "section": {
+              "type": "string",
+              "minLength": 1
+            },
+            "page": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Exact page when verified; otherwise NA."
+            },
+            "verification_status": {
+              "enum": [
+                "abstract_anchor",
+                "source_section_anchor",
+                "full_text_page_anchor"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "axisC": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "levels",
+        "evidence",
+        "source_locator"
+      ],
+      "properties": {
+        "levels": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "C0",
+              "C1",
+              "C2",
+              "C3"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        },
+        "source_locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "section",
+            "page",
+            "verification_status"
+          ],
+          "properties": {
+            "section": {
+              "type": "string",
+              "minLength": 1
+            },
+            "page": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Exact page when verified; otherwise NA."
+            },
+            "verification_status": {
+              "enum": [
+                "abstract_anchor",
+                "source_section_anchor",
+                "full_text_page_anchor"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "axisE": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "levels",
+        "evidence",
+        "source_locator"
+      ],
+      "properties": {
+        "levels": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "E0",
+              "E1",
+              "E2",
+              "E3"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        },
+        "source_locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "section",
+            "page",
+            "verification_status"
+          ],
+          "properties": {
+            "section": {
+              "type": "string",
+              "minLength": 1
+            },
+            "page": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Exact page when verified; otherwise NA."
+            },
+            "verification_status": {
+              "enum": [
+                "abstract_anchor",
+                "source_section_anchor",
+                "full_text_page_anchor"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "axisA": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "levels",
+        "evidence",
+        "source_locator"
+      ],
+      "properties": {
+        "levels": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "A0",
+              "A1",
+              "A2",
+              "A3"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        },
+        "source_locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "section",
+            "page",
+            "verification_status"
+          ],
+          "properties": {
+            "section": {
+              "type": "string",
+              "minLength": 1
+            },
+            "page": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Exact page when verified; otherwise NA."
+            },
+            "verification_status": {
+              "enum": [
+                "abstract_anchor",
+                "source_section_anchor",
+                "full_text_page_anchor"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "axisN": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "levels",
+        "evidence",
+        "source_locator"
+      ],
+      "properties": {
+        "levels": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "N0",
+              "N1",
+              "N2",
+              "N3"
+            ]
+          },
+          "uniqueItems": true,
+          "minItems": 1
+        },
+        "evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        },
+        "source_locator": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "section",
+            "page",
+            "verification_status"
+          ],
+          "properties": {
+            "section": {
+              "type": "string",
+              "minLength": 1
+            },
+            "page": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Exact page when verified; otherwise NA."
+            },
+            "verification_status": {
+              "enum": [
+                "abstract_anchor",
+                "source_section_anchor",
+                "full_text_page_anchor"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
